@@ -1,0 +1,47 @@
+	
+	/* #Eelements + (Bootstrap)
+	================================================== */
+	
+
+	/* Distance (Vertical Spaces) */
+	
+	.vertical-space, .vertical-space1, .vertical-space2, .vertical-space3, .vertical-space4, .vertical-space5 { display: block; width: 100%; margin: 0; clear: both; border: 0 none; height: 20px; }
+	.vertical-space2 { height: 40px; }
+	.vertical-space3 { height: 60px; }
+	.vertical-space4 { height: 80px; }
+	.vertical-space5 { height: 100px; }
+	*+html hr.vertical-space, *+html hr.vertical-space1, *+html hr .vertical-space2, *+html hr.vertical-space3, *+html hr.vertical-space4, *+html hr.vertical-space5 { height: 0px; margin: 10px 0; background: #fff; border: 1px solid #fff; }
+	*+html hr.vertical-space2 { margin: 20px 0; }
+	*+html hr.vertical-space3 { margin: 30px 0; }
+	*+html hr.vertical-space4 { margin: 40px 0; }
+	*+html hr.vertical-space5 { margin: 50px 0; }
+	
+		
+	/* TITLE */
+	
+	h4.subtitle { border-bottom: 1px solid #ff5656; font-family: 'Roboto', Helvetica, Arial; font-weight: 900; letter-spacing:1px; text-transform: uppercase; line-height: 2; padding-bottom:8px; font-size: 13px; color: #54606b; clear: both; margin: 19px 0 21px 0; }
+	h4.subtitle img { float: left; margin-right: 5px; vertical-align: baseline }
+	h4.subtitle.r1dd { margin-top: 20px; }
+	.title { background: #fff url(../images/title-left1.png) repeat-x 0 6px; overflow: hidden; margin-bottom: 21px; clear: both; }
+	.title h4, .title h3 { background: #fff; display: inline; margin-left: 18px; padding: 0 3px; font-weight: 400; text-transform: capitalize; font-size: 18px; }
+	h6.h-sub-content { display: inline-block; letter-spacing: 0.2px; font-size: 18px; font-weight: 400; text-transform: capitalize; border-bottom: 2px solid #e12121; line-height: 47px; margin-bottom: -2px; width: auto; max-width: 100%; }
+	.sub-content span { display: inline-block; font-size: 10px; font-weight: bold; letter-spacing: 2px; }
+	.sub-content { border-bottom: 2px solid #e5e5e5; position: relative; margin-bottom: 30px; }
+	
+	
+	/*	ACCORDION */
+	
+	.acc-trigger {	border-top: 3px solid #f3f2f2; cursor: pointer; display: block; margin: 0;	}
+	.acc-trigger:last-of-type, .acc-container:last-of-type { border-bottom: 3px solid #f3f2f2; margin-bottom: 20px; }
+	.no-js .acc-trigger:last-of-type { border-bottom: none; }
+	.acc-trigger a { background: url(../images/accordion-ico.png) no-repeat 6px 18px;	display: block;	color:#656f78;	padding: 19px 14px 16px 40px; text-decoration: none; text-shadow: none; font-weight:bold; font-size:16px; }
+	.acc-trigger a:hover { background-color: #fbfbfb;  }
+	.acc-trigger a:hover, .acc-trigger.active a, .acc-trigger.active a:hover { color: #0093d0; }
+	.acc-trigger.active a:hover { background-color: transparent; }
+	.acc-trigger.active { cursor: default;  border-top-color:#b0afaf; background-color:#fff; }
+	.acc-trigger.active:last-of-type { border-bottom: none; margin-bottom: 0; }
+	.acc-trigger.active a { background-position: 6px -54px; cursor: default;	}
+	.acc-container .content {  padding: 0 14px 21px 40px;  }
+	
+	
+	
